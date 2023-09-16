@@ -72,12 +72,11 @@ body{
 
 .nav__list li a{
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
     font-size: 1.5rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
-    transition: all .3s ease;
 }
 
 .img_logo{
@@ -137,21 +136,20 @@ body{
     0%{
         transform: scale(1);
     }
+    50%{
+        transform: scale(1.1);
+    }
     100%{
-        transform: scale(1.5);
+        transform: scale(1);
     }
 }
-    
-.nav__list li a:hover{
-    animation: bounce-right 1s ease;
-    color: #ffffff;
-}
 
-.nav__list li:active{
-    animation: bounce-right 3s ease;
-    color: #ffffff;
+.nav_link:hover{
+    animation: hover_link 1s ease;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 12px;
 }
-
 @media screen and (max-width: 768px){
     .contenedor__principal{
         grid-template-columns: 1fr;
