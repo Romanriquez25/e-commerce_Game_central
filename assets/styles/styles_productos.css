@@ -133,6 +133,8 @@ body{
     letter-spacing: 1px;
     color: #000;
 }
+/* 
+hover */
 
 @keyframes hover_link{
     0%{
@@ -281,7 +283,7 @@ body{
   @media screen and (max-width: 768px){
     .contenedor__principal{
         grid-template-columns: 1fr;
-        grid-template-rows: 20vh 70vh 10vh;
+        grid-template-rows: 20vh 60vh 20vh;
         grid-template-areas:
         "header"
         "main"

@@ -11,7 +11,7 @@ body{
 .contenedor__principal{
     display: grid;
     grid-template-columns: 200px 1fr;
-    grid-template-rows: 20vh 70vh 10vh;
+    grid-template-rows: max-content 70vh 10vh;
     grid-template-areas:
     "header header"
     "sidebar main"
@@ -236,6 +236,7 @@ body{
         "main"
         "footer";
         justify-content: center;
+        overflow: hidden;
     }
     
     .header{
